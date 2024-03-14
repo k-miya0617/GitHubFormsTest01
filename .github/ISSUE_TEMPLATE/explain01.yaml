@@ -38,12 +38,8 @@ body:
       label: チェックボックス
       description: チェックボックスを指定することができます
       options:
-        - label: 同意します
-  # - type: checkboxes
-    # id: ck1
-    # attributes:
-      # label: "チェックボックス"
-      # description: "チェックボックスを設置することができます"
+        - label: この内容が公開されることに同意します
+          required: true
 
   - type: input
     id: contact
