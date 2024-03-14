@@ -39,11 +39,11 @@ body:
       label: チェックボックス(複数)
       description: チェックボックスを複数指定することもできます
       options:
-        - 抵抗制御
-        - チョッパ制御
-        - 界磁添加励磁制御
-        - サイリスタ位相制御
-        - VVVFインバータ制御
+        - label: 抵抗制御
+        - label: チョッパ制御
+        - label: 界磁添加励磁制御
+        - label: サイリスタ位相制御
+        - label: VVVFインバータ制御
   - type: dropdown
     id: dr01
     attributes:
