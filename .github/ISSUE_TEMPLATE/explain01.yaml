@@ -50,6 +50,18 @@ body:
         - GSE
     validations:
       required: true
+  - type: dropdown
+    id: dr02
+    attributes:
+      label: ドロップダウンで複数の値を指定することもできます
+      multiple: true
+      options:
+        - "1000"
+        - "2000"
+        - "3000"
+        - "4000"
+        - "5000"
+        - "8000"
 
   - type: input
     id: contact
