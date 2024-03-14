@@ -32,6 +32,13 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+  - type: checkboxes
+    id: check01
+    attributes:
+      label: チェックボックス
+      description: チェックボックスを指定することができます
+      options:
+        - label: 同意します
   # - type: checkboxes
     # id: ck1
     # attributes:
