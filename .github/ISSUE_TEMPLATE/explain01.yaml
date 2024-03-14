@@ -74,6 +74,12 @@ body:
         - "4000"
         - "5000"
         - "8000"
+  - type: input
+    id: input01
+    attributes:
+      label: input
+      description: １行の文字列を入力する場合
+
 
   - type: input
     id: contact
