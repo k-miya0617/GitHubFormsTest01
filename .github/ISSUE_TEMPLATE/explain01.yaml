@@ -5,7 +5,6 @@ labels: ["01_子Issue"]
 body:
   - type: markdown
     attributes:
-      label: `markdown`
       value: |
         ↓自由にマークダウンを書くことができます↓
         ---
