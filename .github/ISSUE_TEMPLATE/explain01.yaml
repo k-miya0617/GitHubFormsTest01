@@ -25,10 +25,6 @@ body:
         - ul
         ---
         ↑自由にマークダウンを書くことができます↑
-  - type: markdown
-    attributes:
-      value: |
-        # `checkboxes`
   - type: checkboxes
     id: ck1
     attributes:
