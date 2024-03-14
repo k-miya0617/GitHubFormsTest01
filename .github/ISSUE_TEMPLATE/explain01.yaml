@@ -33,6 +33,17 @@ body:
       options:
         - label: この内容が公開されることに同意します
           required: true
+  - type: checkboxes
+    id: check02
+    attributes:
+      label: チェックボックス(複数)
+      description: チェックボックスを複数指定することもできます
+      options:
+        - 抵抗制御
+        - チョッパ制御
+        - 界磁添加励磁制御
+        - サイリスタ位相制御
+        - VVVFインバータ制御
   - type: dropdown
     id: dr01
     attributes:
@@ -53,7 +64,8 @@ body:
   - type: dropdown
     id: dr02
     attributes:
-      label: ドロップダウンで複数の値を指定することもできます
+      label: ドロップダウンメニュー (複数選択)
+      description: ドロップダウンで複数の値を指定することもできます
       multiple: true
       options:
         - "1000"
