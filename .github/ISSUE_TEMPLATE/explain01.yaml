@@ -3,8 +3,7 @@
  body:
    - type: markdown
      attributes:
-       value: |
-         勉強会説明用のフォームです。このフォームでは、現在のGitHub FormsでサポートしているInput系の部品を紹介します。
+       value: 勉強会説明用のフォームです。このフォームでは、現在のGitHub FormsでサポートしているInput系の部品を紹介します。
 # name: 説明用フォーム
 # description: aaa
 # labels: ["01_子Issue"]
