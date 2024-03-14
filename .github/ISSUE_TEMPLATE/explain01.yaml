@@ -1,15 +1,12 @@
 name: 勉強会説明用フォーム
 description: 勉強会で紹介するフォーム
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+title: "titleデフォルト値設定可能"
+labels: ["01_子Issue"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        自由にマークダウンを書くことができます
   - type: input
     id: contact
     attributes:
