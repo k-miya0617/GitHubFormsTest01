@@ -26,20 +26,30 @@ body:
         ---
         ↑自由にマークダウンを書くことができます↑
   - type: checkboxes
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
-  - type: checkboxes
     id: check01
     attributes:
       label: チェックボックス
-      description: チェックボックスを指定することができます
+      description: チェックボックスを配置することができます
       options:
         - label: この内容が公開されることに同意します
           required: true
+  - type: dropdown
+    id: dr01
+    attributes:
+      label: ドロップダウンメニュー
+      description: ドロップダウンを配置することができます
+      options:
+        - SE
+        - NSE
+        - LSE
+        - HiSE
+        - RSE
+        - EXE
+        - VSE
+        - MSE
+        - GSE
+    validations:
+      required: true
 
   - type: input
     id: contact
