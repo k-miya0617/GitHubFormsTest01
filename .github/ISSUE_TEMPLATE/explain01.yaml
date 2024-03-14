@@ -1,7 +1,42 @@
+# name: 説明用フォーム
+# description: 勉強会で説明するフォーム
+# body:
+  # - type: markdown
+    # attributes:
+      # value: |
+        # 勉強会説明用のフォームです。このフォームでは、現在のGitHub FormsでサポートしているInput系の部品を紹介します。
 name: 説明用フォーム
-description: 勉強会で説明するフォーム
+description: aaa
+labels: ["01_子Issue"]
 body:
-  - type: markdown
+  - type: textarea
+    id: overview
     attributes:
-      value: |
-        勉強会説明用のフォームです。このフォームでは、現在のGitHub FormsでサポートしているInput系の部品を紹介します。
+      label: 概要
+      description: この子チケットの概要を簡潔に書いてください。
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: チケットの対応内容が決まっていたり、詳細な説明が必要な場合に書いてください
+  - type: dropdown
+    id: applications
+    attributes:
+      label: 対象アプリケーション
+      multiple: true
+      options:
+        - backend
+        - frontend
+        - authnz
+        - infra
+        - other
+  - type: textarea
+    id: relationTicket
+    attributes:
+      label: 関連項目
+      description: 関連するIssue, 親Issue、資料などへのリンク
+  - type: textarea
+    id: completeCondition
+    attributes:
+      label: 完了条件
+      description: このチケットが完了する条件を書いてください
