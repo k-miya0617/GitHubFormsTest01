@@ -1,0 +1,18 @@
+name: 開発チケット（子チケット）
+description: 子チケット専用の開発チケット作成フォームです
+labels:
+  - content
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ここに文章を書きます。
+        複数行書くことができます。
+  - type: checkboxes
+    id: isCore
+    attributes:
+      label: Core (asp.net, Command, data)
+  - type: checkboxes
+    id: isDashboard
+    attributes:
+      label: Dashboard
