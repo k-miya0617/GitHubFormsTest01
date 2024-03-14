@@ -26,20 +26,17 @@ body:
         ---
         ↑自由にマークダウンを書くことができます↑
   - type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: checkboxes
     id: ck1
     attributes:
       label: "チェックボックス"
       description: "チェックボックスを設置することができます"
-      options:
-        - SE
-        - NSE
-        - LSE
-        - HiSE
-        - RSE
-        - EXE
-        - VSE
-        - MSE
-        - GSE
 
   - type: input
     id: contact
