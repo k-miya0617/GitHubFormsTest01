@@ -5,6 +5,7 @@ labels: ["01_子Issue"]
 body:
   - type: markdown
     attributes:
+      label: `markdown`
       value: |
         ↓自由にマークダウンを書くことができます↓
         ---
@@ -28,7 +29,7 @@ body:
   - type: checkboxes
     id: check01
     attributes:
-      label: チェックボックス `checkboxes`
+      label: `checkboxes`
       description: チェックボックスを配置することができます
       options:
         - label: この内容が公開されることに同意します
@@ -36,7 +37,7 @@ body:
   - type: checkboxes
     id: check02
     attributes:
-      label: チェックボックス(複数) `checkboxes`
+      label: `checkboxes` (複数)
       description: チェックボックスを複数指定することもできます
       options:
         - label: 抵抗制御
@@ -47,7 +48,7 @@ body:
   - type: dropdown
     id: dr01
     attributes:
-      label: ドロップダウンメニュー `dropdown`
+      label: `dropdown`
       description: ドロップダウンを配置することができます
       options:
         - SE
@@ -64,7 +65,7 @@ body:
   - type: dropdown
     id: dr02
     attributes:
-      label: ドロップダウンメニュー (複数選択) `dropdown`
+      label: `dropdown` (複数選択)
       description: ドロップダウンで複数の値を指定することもできます
       multiple: true
       options:
