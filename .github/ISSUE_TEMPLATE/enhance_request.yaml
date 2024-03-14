@@ -1,64 +1,35 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: 開発チケット（子チケット）
+description: 子チケット用の開発チケットです
+labels: ["01_子Issue"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
-    id: what-happened
+    id: overview
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
+      label: 概要
+      description: この子チケットの概要を簡潔に書いてください。
+  - type: textarea
+    id: detail
+    attributes:
+      label: 内容
+      description: チケットの対応内容が決まっていたり、詳細な説明が必要な場合に書いてください
   - type: dropdown
-    id: version
+    id: applications
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
+      label: 対象アプリケーション
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - backend
+        - frontend
+        - authnz
+        - infra
+        - other
   - type: textarea
-    id: logs
+    id: relationTicket
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
+      label: 関連項目
+      description: 関連するIssue, 親Issue、資料などへのリンク
+  - type: textarea
+    id: completeCondition
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: 完了条件
+      description: このチケットが完了する条件を書いてください
