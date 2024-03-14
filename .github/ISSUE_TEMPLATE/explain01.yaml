@@ -28,7 +28,23 @@ body:
   - type: markdown
     attributes:
       value: |
-        `checkboxes`
+        # `checkboxes`
+  - type: checkboxes
+    id: ck1
+    attributes:
+      label: "チェックボックス"
+      description: "チェックボックスを設置することができます"
+      options:
+        - SE
+        - NSE
+        - LSE
+        - HiSE
+        - RSE
+        - EXE
+        - VSE
+        - MSE
+        - GSE
+
   - type: input
     id: contact
     attributes:
