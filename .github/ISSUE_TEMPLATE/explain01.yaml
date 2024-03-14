@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: 勉強会説明用フォーム
+description: 勉強会で紹介するフォーム
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
