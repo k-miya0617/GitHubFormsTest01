@@ -7,6 +7,10 @@ body:
     attributes:
       value: |
         自由にマークダウンを書くことができます
+        # Header1
+        ## Header2
+        ### Header3
+
   - type: input
     id: contact
     attributes:
