@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        自由にマークダウンを書くことができます
+        ↓自由にマークダウンを書くことができます↓
+        ---
         # Header1
         ## Header2
         ### Header3
@@ -22,9 +23,8 @@ body:
             - ul
           - ul
         - ul
-
-        
-
+        ---
+        ↑自由にマークダウンを書くことができます↑
   - type: input
     id: contact
     attributes:
