@@ -78,8 +78,18 @@ body:
     id: input01
     attributes:
       label: input
-      description: １行の文字列を入力する場合
-
+      description: １行の文字列を入力する場合はinputを使います
+  - type: textarea
+    id: textarea1
+    attributes:
+      label: textarea
+      description: 複数行の文字列を入力する場合はtextareaを使います
+  - type: textarea
+    id: textarea2
+    attributes:
+      label: "textarea (render: TypeScript)"
+      description: 特定のシンタックスをテキストエリアに表示する
+      render: TypeScript
 
   - type: input
     id: contact
